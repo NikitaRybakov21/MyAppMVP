@@ -9,6 +9,7 @@ import retrofit2.Callback
 import retrofit2.Response
 
 class Presenter(private val model : Model, private val retrofitImpl: RetrofitImpl) :
+
     InterfacePresenter {
     private var activity : MainActivity? = null
 

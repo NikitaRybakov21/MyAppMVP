@@ -7,6 +7,7 @@ import com.example.myappmvp.retrofit.RetrofitImpl
 
 class App : Application() {
 
+
     lateinit var presenter : Presenter
 
     override fun onCreate() {

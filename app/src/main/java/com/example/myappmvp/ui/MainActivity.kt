@@ -8,6 +8,7 @@ import com.example.myappmvp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() , InterfaceUI {
 
+
     private var _binding: ActivityMainBinding? = null
     private val binding : ActivityMainBinding get() = _binding!!
 
